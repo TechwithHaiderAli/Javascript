@@ -11,3 +11,13 @@ console.log(valueInNumber)
 //false =>0
 //null =>0
 //undefined=>NaN
+
+//Converting into Boolean
+//""=>false
+//"something"=>true
+// 1 =>true
+//0 =>false
+
+//Converting to String
+//33 =>"33"
+//
