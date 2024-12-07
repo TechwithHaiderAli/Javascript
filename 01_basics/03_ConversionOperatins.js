@@ -21,3 +21,22 @@ console.log(valueInNumber)
 //Converting to String
 //33 =>"33"
 //
+let str1="Haider"
+let str2=" ALi"
+
+let str3=str1+str2
+console.log(str3);
+
+console.log("1"+2);
+console.log("1"+"2");
+console.log(1+"2");
+console.log(1+2+"3");
+// The precedence applies according to the first value passed
+console.log(+true);
+console.log(+"");
+//+ is used for conversion
+//Prefix and Postfix operator
+let gameCounter=100
+
+++gameCounter;
+console.log(gameCounter);
