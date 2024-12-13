@@ -1,0 +1,75 @@
+
+/* Reset some default browser styles */
+body, h1, p, form, div, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the body */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Styling the container */
+.container {
+    background: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+/* Styling the heading */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+/* Styling the labels */
+label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+/* Styling the inputs */
+input {
+    margin: 10px 0;
+    padding: 8px;
+    width: calc(100% - 20px);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Styling the button */
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #357ab8;
+}
+
+/* Styling the result section */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4caf50;
+}
