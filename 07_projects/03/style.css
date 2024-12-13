@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: chartreuse;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem;
+}
+#clock {
+    padding-top: 30px;
+    width: 100px; /* Set a width for the div */
+    height: 50px; /* Set a height for the div */
+    background-color: rgb(13, 100, 32); /* Set the background color to yellow */
+    margin-left: 50px;
+    font-weight: 800;
+}
