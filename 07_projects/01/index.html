@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Box Buttons with IDs</title>
+   <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+        .button-box {
+            display: flex;
+            gap: 20px;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 16px;
+            color: white;
+            border-radius: 20px;
+            border-color: black;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #red { background-color: red; }
+        #green { background-color: green; }
+        #blue { background-color: blue; }
+        #yellow { background-color: yellow; color: black; }
+    </style>
+</head>
+<body>
+
+    <div class="button-box">
+        <button id="red" class="button">Red</button>
+        <button id="green" class="button">Green</button>
+        <button id="blue" class="button">Blue</button>
+        <button id="yellow" class="button">Yellow</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
